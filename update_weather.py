@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 
+load_dotenv()
 # OpenWeather API 키 31563b64da6452ee368abb8f9e78d807
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
 CITY = "Seoul"
